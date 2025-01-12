@@ -7,7 +7,7 @@ import java.util.List;
 
 import javax.servlet.http.HttpSession;
 
-import org.apache.cassandra.thrift.Cassandra.system_add_column_family_args;
+//import org.apache.cassandra.thrift.Cassandra.system_add_column_family_args;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

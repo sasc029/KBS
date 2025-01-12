@@ -1,0 +1,21 @@
+https://blog.csdn.net/u012371450/article/details/46743283
+https://blog.csdn.net/qq_19887735/article/details/141940054
+
+
+git config --global --list
+git config --system --list
+
+git config --global http.proxy http://127.0.0.1:10809
+git config --global https.proxy https://127.0.0.1:10809
+
+127.0.0.1:10809
+
+git config --global http.proxy http://proxyuser:proxypassword@proxy.server.com:port
+git config --global https.proxy https://proxyuser:proxypassword@proxy.server.com:port
+
+# 如果你想要停止使用代理，可以执行以下命令
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
+git config --global http.postBuffer 924288000  # 设置为900MB
+
